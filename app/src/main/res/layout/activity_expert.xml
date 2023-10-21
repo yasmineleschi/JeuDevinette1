@@ -8,16 +8,17 @@
 
     <TextView
         android:id="@+id/timerTextView"
-        android:layout_width="65dp"
-        android:layout_height="37dp"
+        android:layout_width="79dp"
+        android:layout_height="38dp"
         android:layout_gravity="center"
-        android:layout_marginStart="324dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginBottom="396dp"
         android:text="00:00"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guess1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/edit"
